@@ -1,0 +1,5 @@
+git clone https://github.com/GoogleCloudPlatform/generative-ai.git
+cd generative-ai/gemini/sample-apps/gemini-streamlit-cloudrun
+python3 -m venv gemini-streamlit
+source gemini-streamlit/bin/activate
+pip install -r requirements.txt
